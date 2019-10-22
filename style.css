@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+}
+
+.logo {
+	background-image:url(images/shj.jpg);
+	height:80px; 
+	padding: 3px; 
+	margin: auto;
+}
+
+.logo img {
+	margin-top:1px; 
+	margin-left: 190px; 
+	animation:AJ 2s infinite alternate;
+} 
+ 
+@keyframes AJ { 
+	0%{ border-radius:50px;}
+	100%{ border-radius:50px; transform:rotate(-30deg);}
+}
+
+.logo img:hover { 
+	box-shadow:0px 6px 7px; 
+	color:#960;
+	transition: 1s ease all;
+}
+
+header .nav{
+	width: 100%;
+	background-color: #222222;
+}
+
+header .nav nav ul{
+	list-style: none;
+	text-align: center;
+}
+
+header .nav nav ul li {
+	display: inline-block;
+}
+
+header .nav nav ul li a{
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size:20px; 
+	font-weight:bold; 
+	color:#FFF; 
+	display:block; 
+	padding: 25px;
+}
+
+header .nav nav ul li a:hover{
+	color: #940b26; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	background-image: linear-gradient(to left, #458302, #2f5802);
+	transition: 1s ease all;
+}
+
+section {
+	width: 100%;
+	margin: 50px 0;
+}
+
+section .container {
+	max-width: 935px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.box { 
+	width:280px;
+	margin:5px;
+	border: 5px 4px 3px solid #F00; 
+}
+
+.box img {
+	height: 200px;
+	width: 280px;
+}
+
+.box:hover{ 
+	box-shadow: 5px 5px 10px #ccc; 
+	color: #930;
+	transition: 1s ease all;
+	padding: 0 5px;
+}
+
+.title{ 
+	color:#F60; 
+	font-size:18px; 
+	font-weight:bold; 
+	padding:10px; 
+	text-align: center;
+	margin: 0;
+}
+
+.content{ 
+	text-align: center; 
+	padding: 10px;
+	margin: 0;
+}
+
+#mainnews{ 
+	border:0px solid #069; 
+	width:870px; 
+	margin:auto; 
+	margin-top:15px;
+}
+
+#mainnews img{
+	margin:5px; 
+	padding:5px;
+}
+#mainnews:hover { 
+	box-shadow: 5px 5px 10px #ccc; 
+	color: #930;
+	transition: 1s ease all;
+	padding: 0 5px;
+}
+
+#title{ 
+	color:#F60; 
+	font-size:18px; 
+	font-weight:bold; 
+	padding:10px; 
+}
+
+#content{ 
+	text-align:justify; 
+	padding:10px;
+}
+
+footer{ 
+	background-image:url(images/shj.jpg); 
+	width:100%; 
+	margin: auto;  
+	text-align:center; 
+	font-size:30px; 
+	color:#FFF;
+	padding: 25px 0;
+}
+  
